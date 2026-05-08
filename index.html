@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storing – Instituut voor de Nederlandse taal</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #f5f5f5;
+      color: #1a1a1a;
+      font-family: 'Century Schoolbook', 'New Century Schoolbook', Century, Georgia, sans-serif;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background-color: #FFF064;
+      padding: 24px 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+
+    header img {
+      max-width: 250px;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ── MAIN ── */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 64px 24px;
+      text-align: center;
+    }
+
+    .storing-icon {
+      width: 56px;
+      height: 56px;
+      margin-bottom: 28px;
+      opacity: 0.6;
+    }
+
+    main h1 {
+      font-family: 'Century Schoolbook', 'New Century Schoolbook', Century, Georgia, sans-serif;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      max-width: 540px;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: #444;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background-color: #1a1a1a;
+      color: #999;
+      text-align: center;
+      padding: 18px 24px;
+      font-size: 0.8rem;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 0.03em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Instituut voor de Nederlandse taal">
+  </header>
+
+  <main>
+    <svg class="storing-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M32 6L58 54H6L32 6Z" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
+      <line x1="32" y1="26" x2="32" y2="40" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="32" cy="47" r="2" fill="#1a1a1a"/>
+    </svg>
+
+    <h1>Storing</h1>
+    <p>Het INT heeft te maken met een ernstige technische storing. Hierdoor zijn onze websites en andere services niet bereikbaar en kunnen we ook niet per e-mail bereikt worden. Er wordt druk gewerkt aan een oplossing. Het zal meerdere dagen gaan duren voordat we weer in de lucht zijn.</p>
+  </main>
+
+  <footer>
+    &copy; 2026 &ndash; Instituut voor de Nederlandse taal
+  </footer>
+
+</body>
+</html>
